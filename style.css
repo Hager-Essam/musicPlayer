@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    color: #3E3232;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5F6F52 ;
+    background: linear-gradient(135deg, #86A789, #5F6F52);
+}
+
+.container {
+    width: 500px;
+    background-color: #86A789;
+    border-radius: 20px;
+    padding: 20px;
+    height: 100vh;
+}
+
+.musicName {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.musicImage {
+    position: relative;
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #3E3232;
+    margin: 5px 50px;
+}
+
+.controlButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.controlButtons i {
+    margin: 30px;
+}
+
+.sliderControl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.volume {
+    width: 60%;
+    accent-color: #49243E;
+    margin: 10px;
+    text-align: center;
+}
+
+.songSlider {
+    width: 90%;
+    accent-color: #49243E;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+ 
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="musicInformation">
+                <h1 class="musicName">Music Name </h1>
+                <div class="musicImage"></div>
+            </div>
+
+            <div class="controlButtons">
+                <div class="previousSong" onclick="playPreviousSong()">
+                    <i class="fa fa-step-backward fa-2x"></i>
+                </div>
+                <div class="CurrentSong" onclick="playSong()">
+                    <i class="fa fa-play-circle fa-5x"></i>
+                </div>
+                <div class="nextSong" onclick="playNextSong()">
+                    <i class="fa fa-step-forward fa-2x"></i>
+                </div>
+            </div>
+
+            <div class="sliderControl">
+                <div class="volume">
+                    <i class="fa fa-volume-down"></i> <input type="range" value="100" min="0" max="100"
+                        class="volume"><i class="fa fa-volume-up"></i>
+
+                </div>
+                <input type="range" value="1" class="songSlider" onchange="changeTimeTo()">
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+
+</html>
