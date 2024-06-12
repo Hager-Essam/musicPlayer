@@ -12,14 +12,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #5F6F52 ;
-    background: linear-gradient(135deg, #86A789, #5F6F52);
+    background-color: #254336 ;
+    background: linear-gradient(135deg, #704264, #8bc4a7);
 }
 
 .container {
     width: 500px;
-    background-color: #86A789;
-    border-radius: 20px;
+    background: linear-gradient(135deg, #D8EFD3, #A87676);    border-radius: 20px;
     padding: 20px;
     height: 100vh;
 }
