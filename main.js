@@ -14,10 +14,10 @@ const image = document.getElementById('cover'),
 const music = new Audio();
 const songs = [
     {
-        path: 'music/lovely.m4a',
-        displayName: 'lovely',
-        cover: 'images/Billi.jpg',
-        artist: 'Billie'
+        path: 'music/El Arieb Menk.m4a',
+        displayName: 'El Arieb Menk',
+        cover: 'images/download.jpg',
+        artist: 'Nagat'
     },
     {
         path: 'music/OmKolthom.m4a',
@@ -25,13 +25,6 @@ const songs = [
         cover: 'images/cc6ed5abaa9855f9b812c2a7f82d0a9b.jpg',
         artist: 'OmKolthom'
     },
-    {
-        path: 'music/Shawn Mendes, Camila Cabello - Señorita (Lyrics).m4a',
-        displayName: 'Seneorita',
-        cover: 'images/R.jpg',
-        artist: 'Billie'
-    },
-
     {
         path: 'music/Seret_El_Hobshort_version_Umm_Kulthum_سيرة_الحب_نسخة_قصيرة.m4a',
         displayName: 'Seret_Elhob',
@@ -43,6 +36,12 @@ const songs = [
         displayName: 'Fakrouny',
         cover: 'images/th.jpg',
         artist: 'OmKolthom'
+    },
+    {
+        path: 'music/lovely.m4a',
+        displayName: 'lovely',
+        cover: 'images/Billi.jpg',
+        artist: 'Billie'
     },
 ];
 
