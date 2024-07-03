@@ -14,34 +14,34 @@ const image = document.getElementById('cover'),
 const music = new Audio();
 const songs = [
     {
-        path: 'music/El Arieb Menk.m4a',
-        displayName: 'El Arieb Menk',
-        cover: 'images/download.jpg',
-        artist: 'Nagat'
+        path: 'music/audio_2024-07-03_10-06-27.ogg',
+        displayName: 'سورة الحجر',
+        cover: 'images/OIP.jpg',
+        artist: 'هزاع البلوشى '
     },
     {
-        path: 'music/OmKolthom.m4a',
-        displayName: 'Enta Omry',
-        cover: 'images/cc6ed5abaa9855f9b812c2a7f82d0a9b.jpg',
-        artist: 'OmKolthom'
+        path: 'music/سورة الكهف احمد العجمي.m4a',
+        displayName: 'سورة الكهف',
+        cover: 'images/الكهف.png',
+        artist: 'أحمد العجمى'
     },
     {
-        path: 'music/Seret_El_Hobshort_version_Umm_Kulthum_سيرة_الحب_نسخة_قصيرة.m4a',
-        displayName: 'Seret_Elhob',
-        cover: 'images/cc6ed5abaa9855f9b812c2a7f82d0a9b.jpg',
-        artist: 'OmKolthom'
+        path: 'music/سورة طه - إدريس ابكر.m4a',
+        displayName: 'سورة طه',
+        cover: 'images/ابكر.png',
+        artist: 'ادريس ابكر'
     },
     {
-        path: 'music/Fakarouny.m4a',
-        displayName: 'Fakrouny',
-        cover: 'images/th.jpg',
-        artist: 'OmKolthom'
+        path: 'music/يا_قوم_إنما_هذه_الحياة_الدنيا_متاع_الشيخ_محمد_صديق_المنشاوي_سور.m4a',
+        displayName: 'تلاوات نادرة',
+        cover: 'images/OIP (1).jpg',
+        artist: 'المنشاوى'
     },
     {
-        path: 'music/lovely.m4a',
-        displayName: 'lovely',
-        cover: 'images/Billi.jpg',
-        artist: 'Billie'
+        path: 'music/{_وجاءت_سكرة_الموت_}_إستمع_كيف_تلاها_الشيخ_محمد_اللحيدان_بالنبرة.m4a',
+        displayName: 'تلاوات اللحيدان',
+        cover: 'images/OIP.jpg',
+        artist: 'محمد اللحيدان'
     },
 ];
 
