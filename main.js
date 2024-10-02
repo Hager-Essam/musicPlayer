@@ -25,9 +25,16 @@ const songs = [
         cover: 'images/الكهف.png',
         artist: 'أحمد العجمى'
     },
+    
     {
         path: 'music/سورة طه - إدريس ابكر.m4a',
         displayName: 'سورة طه',
+        cover: 'images/ابكر.png',
+        artist: 'ادريس ابكر'
+    },
+    {
+        path: 'music/f.ogg',
+        displayName: 'سورة الواقعه',
         cover: 'images/ابكر.png',
         artist: 'ادريس ابكر'
     },
